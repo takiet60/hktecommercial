@@ -1,10 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="zxx">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Bookshop Responsive Bootstrap4 Template</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>My Wishlist | Bookshop Responsive Bootstrap4 Template</title>
     <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- Favicons -->
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/icon.png">
@@ -17,7 +20,6 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/plugins.css">
-    <link rel="stylesheet" href="css/create-account.css">
     <link rel="stylesheet" href="style.css">
 
     <!-- Cusom css -->
@@ -26,14 +28,20 @@
     <!-- Modernizer js -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
 </head>
+
 <body>
+    <!--[if lte IE 9]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+	<![endif]-->
+
     <!-- Main wrapper -->
     <div class="wrapper" id="wrapper">
+
         <!-- Header -->
-        <header id="wn__header" class="header__area header__absolute sticky__header">
+        <header id="wn__header" class="oth-page header__area header__absolute sticky__header">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-6 col-sm-6 col-6 col-lg-2">
+                    <div class="col-md-4 col-sm-4 col-7 col-lg-2">
                         <div class="logo">
                             <a href="index.html">
 								<img src="images/logo/logo.png" alt="logo images">
@@ -93,7 +101,7 @@
                                             <li><a href="shop-grid.html">History </a></li>
                                         </ul>
                                         <ul class="item item03">
-                                            <li class="title">Customer Favourite</li>
+                                            <li class="title">Favourite</li>
                                             <li><a href="shop-grid.html">Mystery</a></li>
                                             <li><a href="shop-grid.html">Religion & Inspiration</a></li>
                                             <li><a href="shop-grid.html">Romance</a></li>
@@ -126,7 +134,7 @@
                                             <li><a href="shop-grid.html">B&N Kids' Club</a></li>
                                             <li><a href="shop-grid.html">Kids' Music</a></li>
                                             <li><a href="shop-grid.html">Toys & Games</a></li>
-                                            <li><a href="shop-grid.html">Hoodies</a></li>
+                                            <li><a href="shop-grid.html">hoodies</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -165,7 +173,7 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-md-6 col-sm-6 col-6 col-lg-2">
+                    <div class="col-md-8 col-sm-8 col-5 col-lg-2">
                         <ul class="header__sidebar__right d-flex justify-content-end align-items-center">
                             <li class="shop_search"><a class="search__active" href="#"></a></li>
                             <li class="wishlist"><a href="#"></a></li>
@@ -378,7 +386,7 @@
         </header>
         <!-- //Header -->
         <!-- Start Search Popup -->
-        <div class="brown--color box-search-content search_active block-bg close__top">
+        <div class="box-search-content search_active block-bg close__top">
             <form id="search_mini_form" class="minisearch" action="#">
                 <div class="field__search">
                     <input type="text" placeholder="Search entire store here...">
@@ -388,119 +396,82 @@
                 </div>
             </form>
             <div class="close__wrap">
-                <span>close</span>&times;
+                <span>close</span>
             </div>
         </div>
         <!-- End Search Popup -->
-        <!-- Start Create Account -->
-        
-        <div class="body-container">
-            <div class="cr-acc-container">
-                <header>Signup Form</header>
-                <div class="progress-bar-cr">
-                    <div class="step-cr">
-                        <p>Name</p>
-                        <div class="bullet">
-                            <span>1</span>
+        <!-- Start Bradcaump area -->
+        <div class="ht__bradcaump__area bg-image--5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="bradcaump__inner text-center">
+                            <h2 class="bradcaump-title">Wishlist</h2>
+                            <nav class="bradcaump-content">
+                                <a class="breadcrumb_item" href="index.html">Home</a>
+                                <span class="brd-separetor">/</span>
+                                <span class="breadcrumb_item active">Wishlist</span>
+                            </nav>
                         </div>
-                        <div class="check"></div>
                     </div>
-                    <div class="step-cr">
-                        <p>Contact</p>
-                        <div class="bullet">
-                            <span>2</span>
-                        </div>
-                        <div class="check"></div>
-                    </div>
-                    <div class="step-cr">
-                        <p>Address</p>
-                        <div class="bullet">
-                            <span>3</span>
-                        </div>
-                        <div class="check"></div>
-                    </div>
-                    <div class="step-cr">
-                        <p>Submit</p>
-                        <div class="bullet">
-                            <span>4</span>
-                        </div>
-                        <div class="check"></div>
-                    </div>
-                </div>
-                <div class="form-outer">
-                    <form action="#">
-                        <div class="page slidepage">
-                            <div class="title">Basic Info:</div>
-                            <div class="field">
-                                <div class="label">First Name</div>
-                                <input type="text">
-                            </div>
-                            <div class="field">
-                                <div class="label">First Name</div>
-                                <input type="text">
-                            </div>
-                            <div class="field">
-                                <button class="nextBtn">Next</button>
-                            </div>
-                        </div>
-        
-                        <div class="page">
-                            <div class="title">Contact Info:</div>
-                            <div class="field">
-                                <div class="label">Email Address</div>
-                                <input type="text">
-                            </div>
-                            <div class="field">
-                                <div class="label">Phone Number</div>
-                                <input type="text">
-                            </div>
-                            <div class="field btns">
-                                <button class="prev-1 prev">Previous</button>
-                                <button class="next-1 next">Next</button>
-                            </div>
-                        </div>
-        
-        
-                        <div class="page">
-                            <div class="title">Address:</div>
-                            <div class="field">
-                                <div class="label">Address</div>
-                                <input type="text">
-                            </div>
-                            <div class="field">
-                                <div class="label">Gender</div>
-                                <select>
-                                    <option value="">Male</option>
-                                    <option value="">Female</option>
-                                    <option value="">Other</option>
-                                </select>
-                            </div>
-                            <div class="field btns">
-                                <button class="prev-2 prev">Previous</button>
-                                <button class="next-2 next">Next</button>
-                            </div>
-                        </div>
-        
-                        <div class="page">
-                            <div class="title">Login Details:</div>
-                            <div class="field">
-                                <div class="label">Username</div>
-                                <input type="text">
-                            </div>
-                            <div class="field">
-                                <div class="label">Password</div>
-                                <input type="password">
-                            </div>
-                            <div class="field btns">
-                                <button class="prev-3 prev">Previous</button>
-                                <button class="submit">Submit</button>
-                            </div>
-                        </div>
-                    </form>
                 </div>
             </div>
         </div>
-
+        <!-- End Bradcaump area -->
+        <!-- cart-main-area start -->
+        <div class="wishlist-area section-padding--lg bg__white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="wishlist-content">
+                            <form action="#">
+                                <div class="wishlist-table wnro__table table-responsive">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th class="product-remove"></th>
+                                                <th class="product-thumbnail"></th>
+                                                <th class="product-name"><span class="nobr">Product Name</span></th>
+                                                <th class="product-price"><span class="nobr"> Unit Price </span></th>
+                                                <th class="product-stock-stauts"><span class="nobr"> Stock Status </span></th>
+                                                <th class="product-add-to-cart"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="product-remove"><a href="#">×</a></td>
+                                                <td class="product-thumbnail"><a href="#"><img src="images/product/sm-3/1.jpg" alt=""></a></td>
+                                                <td class="product-name"><a href="#">Natoque penatibus</a></td>
+                                                <td class="product-price"><span class="amount">$165.00</span></td>
+                                                <td class="product-stock-status"><span class="wishlist-in-stock">In Stock</span></td>
+                                                <td class="product-add-to-cart"><a href="#"> Add to Cart</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="product-remove"><a href="#">×</a></td>
+                                                <td class="product-thumbnail"><a href="#"><img src="images/product/sm-3/2.jpg" alt=""></a></td>
+                                                <td class="product-name"><a href="#">Quisque fringilla</a></td>
+                                                <td class="product-price"><span class="amount">$50.00</span></td>
+                                                <td class="product-stock-status"><span class="wishlist-in-stock">In Stock</span></td>
+                                                <td class="product-add-to-cart"><a href="#"> Add to Cart</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="product-remove"><a href="#">×</a></td>
+                                                <td class="product-thumbnail"><a href="#"><img src="images/product/sm-3/3.jpg" alt=""></a></td>
+                                                <td class="product-name"><a href="#">Quisque fringilla</a></td>
+                                                <td class="product-price"><span class="amount">$65.00</span></td>
+                                                <td class="product-stock-status"><span class="wishlist-in-stock">In Stock</span></td>
+                                                <td class="product-add-to-cart"><a href="#"> Add to Cart</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- cart-main-area end -->
         <!-- Footer Area -->
         <footer id="wn__footer" class="footer__area bg__cat--8 brown--color">
             <div class="footer-static-top">
@@ -557,6 +528,8 @@
         </footer>
         <!-- //Footer Area -->
 
+    </div>
+    <!-- //Main wrapper -->
 
     <!-- JS Files -->
     <script src="js/vendor/jquery-3.2.1.min.js"></script>
@@ -564,6 +537,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/active.js"></script>
-    <script src="js/create-account.js"></script>
+
 </body>
+
 </html>
