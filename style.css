@@ -8690,3 +8690,15 @@ a.checkout__title {
         padding-bottom: 80px;
     }
 }
+
+.pay {
+    position: relative;
+    background: #e59285;
+    width: 350px;
+    height: 50px;
+    font-weight: bolder;
+    margin: 5px;
+    margin-left: 100px;
+    outline: none;
+    font-size: large;
+}

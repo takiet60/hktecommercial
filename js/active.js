@@ -92,8 +92,8 @@
         slidesToScroll: 1,
         arrows: true,
         draggable: false,
-        prevArrow: '<button type="button" class="wen-slick-prev"><i class="zmdi zmdi-chevron-left"></i></button>',
-        nextArrow: '<button type="button" class="wen-slick-next"><i class="zmdi zmdi-chevron-right"></i></button>',
+        prevArrow: '<button type="button" class="wen-slick-prev"><i class="fas fa-chevron-left"></i></button>',
+        nextArrow: '<button type="button" class="wen-slick-next"><i class="fas fa-chevron-right"></i></button>',
         fade: true,
         dots: false,
         asNavFor: '.thumb_active'
@@ -148,7 +148,7 @@
         autoplay: false,
         autoplayTimeout: 10000,
         items: 6,
-        navText: ['<i class="zmdi zmdi-chevron-left"></i>', '<i class="zmdi zmdi-chevron-right"></i>'],
+        navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i'],
         dots: false,
         lazyLoad: true,
         responsive: {
@@ -178,7 +178,7 @@
         autoplay: false,
         autoplayTimeout: 10000,
         items: 4,
-        navText: ['<i class="zmdi zmdi-chevron-left"></i>', '<i class="zmdi zmdi-chevron-right"></i>'],
+        navText: ['<i class="fas fa-chevron-left"></i', '<i class="fas fa-chevron-right"></i'],
         dots: false,
         lazyLoad: true,
         responsive: {
@@ -209,7 +209,7 @@
         autoplay: false,
         autoplayTimeout: 10000,
         items: 3,
-        navText: ['<i class="zmdi zmdi-chevron-left"></i>', '<i class="zmdi zmdi-chevron-right"></i>'],
+        navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
         dots: false,
         lazyLoad: true,
         responsive: {
@@ -237,7 +237,7 @@
         autoplay: false,
         autoplayTimeout: 10000,
         items: 4,
-        navText: ['<i class="zmdi zmdi-chevron-left"></i>', '<i class="zmdi zmdi-chevron-right"></i>'],
+        navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
         dots: false,
         lazyLoad: true,
         responsive: {
@@ -268,7 +268,7 @@
         autoplay: false,
         autoplayTimeout: 10000,
         items: 4,
-        navText: ['<i class="zmdi zmdi-chevron-left"></i>', '<i class="zmdi zmdi-chevron-right"></i>'],
+        navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
         dots: false,
         lazyLoad: true,
         responsive: {
@@ -365,7 +365,7 @@
         autoplay: false,
         autoplayTimeout: 10000,
         items: 1,
-        navText: ['<i class="zmdi zmdi-chevron-left"></i>', '<i class="zmdi zmdi-chevron-right"></i>'],
+        navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
         dots: false,
         lazyLoad: true,
         responsive: {
