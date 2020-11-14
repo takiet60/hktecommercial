@@ -11142,3 +11142,13 @@ html[dir="rtl"] .sidebar li > a .caret:before {
   content: '\f141'; }
 
 /*# sourceMappingURL=sleek.css.map */
+
+.find {
+  padding: 10px;
+  width: 200px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  margin-left: 100px;
+  background: #4c84ff;
+  color: white;
+}
